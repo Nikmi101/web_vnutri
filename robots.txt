@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://курил-бросил.рф/sitemap.xml
