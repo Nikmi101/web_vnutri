@@ -3079,16 +3079,16 @@ margin-bottom: 1rem;
 .cta-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .cta-wrapper .button {
     background: transparent;
     border: 2px solid #fff;
     border-radius: 2rem;
-    padding: 1rem 2.5rem;
-    font-size: 1.0rem;
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
@@ -4230,8 +4230,27 @@ margin-bottom: 1rem;
 
 			.banner.full {
 				padding: 0;
-				min-height: 80vh;
-				height: 80vh !important;
+				min-height: 65vh;
+				height: 65vh !important;
+			}
+				.banner > article h2 {
+				font-size: 5rem;
+				margin-bottom: 0;
+				color: #FFF;
+				font-weight: 300;
+			}
+
+				.banner > article h2:after {
+					display: none;
+				}
+
+			.banner > article p {
+				color: rgba(255, 255, 255, 0.65);
+				text-transform: uppercase;
+				font-size: 0.8rem;
+				font-weight: 300;
+				margin: 0;
+				letter-spacing: .15rem;
 			}
 
 		}
@@ -4240,8 +4259,8 @@ margin-bottom: 1rem;
 
 			.banner.full {
 				padding: 0;
-				min-height: 80vh;
-				height: 80vh !important;
+				min-height: 65vh;
+				height: 65vh !important;
 			}
 
 			.banner > article {
