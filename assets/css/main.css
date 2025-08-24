@@ -4165,9 +4165,10 @@ margin-bottom: 1rem;
 				}
 
 			.banner > article h2 {
-				font-size: 7rem;
+				font-size: 5rem;
 				margin-bottom: 0;
 				color: #FFF;
+				margin-top: 1.0rem;
 				font-weight: 300;
 			}
 
@@ -4178,10 +4179,10 @@ margin-bottom: 1rem;
 			.banner > article p {
 				color: rgba(255, 255, 255, 0.65);
 				text-transform: uppercase;
-				font-size: 1rem;
+				font-size: 2rem;
 				font-weight: 300;
 				margin: 0;
-				padding-bottom: 1.75rem;
+				margin-bottom: 1.0rem;
 				letter-spacing: .25rem;
 			}
 
