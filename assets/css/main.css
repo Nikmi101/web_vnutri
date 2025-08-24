@@ -1691,7 +1691,10 @@
 			color: inherit;
 			text-decoration: none;
 		}
-
+	h1 {
+		font-size: 1.2rem;
+		color: #d4d4d4;
+	}
 	h2 {
 		font-size: 1.75rem;
 	}
