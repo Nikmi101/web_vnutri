@@ -4479,6 +4479,14 @@ margin-bottom: 1rem;
     color: #fff;
 }
 
+footer.align-center {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* расстояние между кнопками */
+    flex-wrap: wrap; /* если экран узкий — кнопки будут в столбик */
+}
+
+.details-button,
 .rustore-button {
   display: inline-flex;
   align-items: center;
@@ -4503,6 +4511,17 @@ margin-bottom: 1rem;
   transition: background 0.3s;
 margin-bottom: 1rem;
 }
+
+.details-button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.details-button:hover {
+    background-color: #e0e0e0;
+}
+
 
 .rustore-button:hover {
   background-color: #ffa35c;
