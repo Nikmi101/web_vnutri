@@ -13,7 +13,7 @@
         width: 45%;
     }
     .banner .inner h2 {
-        font-size: 1.8em;
+        font-size: 2.0em;
     }
 }
 
@@ -27,7 +27,7 @@
         width: 90%;
     }
     .banner .inner h2 {
-        font-size: 1.0em;
+        font-size: 2.0em;
     }
     .banner .inner p {
         font-size: 1.0em;
@@ -51,7 +51,7 @@
         font-size: 0.85em;
     }
     .box .content h2 {
-        font-size: 1.0em;
+        font-size: 2.0em;
     }
     .box .content p {
         font-size: 1.1em;
