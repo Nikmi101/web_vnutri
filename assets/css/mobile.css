@@ -5,11 +5,23 @@
 
 /* Планшеты и небольшие ноутбуки */
 @media screen and (max-width: 1024px) {
-    .box {
-        width: 45%;
-    }
+       .grid-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid-style .box {
+    width: 95%;
+    max-width: 500px; /* ограничиваем, чтобы не растягивалось слишком */
+    margin-bottom: 1.5rem;
+  }
+    
     .banner .inner h2 {
-        font-size: 1.8em;
+        font-size: 1.1em;
+    }
+    .banner .inner p {
+        font-size: 1.3em;
     }
 
    .cta-wrapper {
@@ -42,17 +54,22 @@
 /* Планшеты и большие телефоны */
 @media screen and (max-width: 768px) {
     .grid-style {
-        flex-direction: column;
-        align-items: center;
-    }
-    .box {
-        width: 90%;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid-style .box {
+    width: 95%;
+    max-width: 500px; /* ограничиваем, чтобы не растягивалось слишком */
+    margin-bottom: 1.5rem;
+  }
+    
     .banner .inner h2 {
-        font-size: 1.0em;
+        font-size: 0.8em;
     }
     .banner .inner p {
-        font-size: 1.2em;
+        font-size: 1.0em;
     }
       .cta-wrapper {
     display: flex;
@@ -83,15 +100,26 @@
 
 /* Мелкие телефоны */
 @media screen and (max-width: 480px) {
+        .grid-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid-style .box {
+    width: 95%;
+    max-width: 500px; /* ограничиваем, чтобы не растягивалось слишком */
+    margin-bottom: 1.5rem;
+  }
     .banner .inner header {
         padding: 10px;
         margin-top: -60px;
     }
-    .banner .inner h2 {
-        font-size: 1.3em;
+      .banner .inner h2 {
+        font-size: 0.65em;
     }
     .banner .inner p {
-        font-size: 0.85em;
+        font-size: 0.8em;
     }
     .box .content h2 {
         font-size: 1.0em;
