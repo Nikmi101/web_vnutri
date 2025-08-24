@@ -2980,7 +2980,7 @@ margin-bottom: 1rem;
 .wrapper.reviews {
     background: #060c1d; /* твой глубокий тёмно-синий фон */
     color: #f0f0f0;     /* светлый текст */
-    padding: 4em 2em;
+    padding: 2em 1em;
 }
 
 .wrapper.reviews h2 {
@@ -2995,7 +2995,7 @@ margin-bottom: 1rem;
     margin: 1.5em auto;
     padding: 1em 1.5em;
     font-style: italic;
-    font-size: 1.1em;
+    font-size: 1.0em;
     line-height: 1.6em;
     max-width: 1000px;
     color: #e0e0e0;
