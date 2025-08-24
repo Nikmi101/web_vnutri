@@ -4004,120 +4004,87 @@ margin-bottom: 1rem;
 /* Banner */
 
 	/* Banner */
+/* Banner */
 .banner {
     background-color: #8a4680;
     color: #e2d1df;
-    padding: 0;
+    padding: 6em 0; /* чуть уменьшила верхний и нижний паддинг */
     position: relative;
-    min-height: 100vh;
-    height: 100vh;
 }
 
-/* Убираем белые индикаторы */
+.banner input,
+.banner select,
+.banner textarea {
+    color: #ffffff;
+}
+
+.banner a {
+    color: #ffffff;
+}
+
+.banner strong,
+.banner b {
+    color: #ffffff;
+}
+
+.banner h1,
+.banner h2,
+.banner h3,
+.banner h4,
+.banner h5,
+.banner h6 {
+    color: #ffffff;
+}
+
+.banner blockquote {
+    border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.banner code {
+    background: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.banner hr {
+    border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.banner.full {
+    padding: 0;
+    min-height: 100vh;
+    height: 100vh !important;
+}
+
+.banner.half {
+    padding: 0;
+    min-height: 50vh;
+    height: 50vh !important;
+}
+
+.banner:after {
+    pointer-events: none;
+    transition: opacity 1.5s ease-in-out, visibility 1.5s;
+    background: #000000;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: 2;
+}
+
+/* Скрываем индикаторы */
 .banner .indicators {
     display: none;
 }
 
-/* Центровка текста и кнопки */
-.banner > article .inner {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 1.5rem;
-    height: 100%;
-    box-sizing: border-box;
-}
-
-/* Заголовок */
-.banner > article h2 {
-    font-size: clamp(2rem, 5vw, 4rem);
-    margin: 0.5rem 0 1.5rem 0;
-    font-weight: 600;
-    line-height: 1.2;
-    color: #fff;
-}
-
-/* Подзаголовок */
-.banner > article p {
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
-    margin-bottom: 1.5rem;
-    color: rgba(255, 255, 255, 0.85);
-    text-transform: none;
-    letter-spacing: 0.05rem;
-}
-
-/* Кнопка */
-.cta-wrapper {
-    margin-top: auto;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.banner .button {
-    background: transparent;
-    border: 1.5px solid #fff;
-    border-radius: 50px;
-    padding: 0.75em 1.75em;
-    font-size: clamp(1rem, 2.5vw, 1.25rem);
-    font-weight: 500;
-    color: #fff;
-    transition: all 0.3s ease;
-}
-
-.banner .button:hover {
-    background: rgba(255,255,255,0.15);
-    transform: translateY(-2px);
-}
-
-/* Адаптив для мобильных */
-@media screen and (max-width: 768px) {
-    .banner > article h2 {
-        font-size: clamp(1.5rem, 6vw, 2.5rem);
-    }
-
-    .banner > article p {
-        font-size: clamp(0.9rem, 4vw, 1.2rem);
-    }
-
-    .banner .button {
-        padding: 0.6em 1.2em;
-        font-size: 1rem;
-    }
-}
-
-/* Альбомная ориентация на телефонах */
-@media screen and (max-height: 500px) {
-    .banner > article .inner {
-        padding: 0.5rem;
-    }
-
-    .banner > article h2 {
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .banner > article p {
-        font-size: 0.9rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .banner .button {
-        padding: 0.5em 1em;
-        font-size: 0.9rem;
-    }
-}
-
-/* Скрытие изображений внутри article (если они фоном через CSS) */
-.banner > article img {
-    display: none;
-}
-
-/* Стандартные article для слайдера */
 .banner > article {
+    transition: opacity 1.5s ease, visibility 1.5s;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4132,6 +4099,59 @@ margin-bottom: 1rem;
     z-index: 0;
 }
 
+.banner > article:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.banner > article:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.35;
+}
+
+.banner > article .inner {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 1;
+    padding: 0 1em; /* добавила отступы по бокам для мобильных */
+}
+
+.banner > article .inner > :last-child {
+    margin-bottom: 0;
+}
+
+.banner > article h2 {
+    font-size: 5rem; /* уменьшила для удобного размещения */
+    margin-bottom: 0.5em;
+    color: #FFF;
+    font-weight: 300;
+}
+
+.banner > article p {
+    color: rgba(255, 255, 255, 0.85);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 0 1.5em 0;
+    letter-spacing: .15rem;
+}
+
+.banner > article a.button {
+    font-size: 1.1rem;
+    padding: 0.8em 2em;
+}
+
+/* Видимость активного слайда */
 .banner > article.visible {
     opacity: 1;
     visibility: visible;
@@ -4141,19 +4161,96 @@ margin-bottom: 1rem;
     z-index: 1;
 }
 
-/* Main */
+.banner > article.instant {
+    transition: none !important;
+}
 
-	#main {
-		padding: 4rem 0 2rem 0 ;
-	}
+body.is-loading .banner:after {
+    opacity: 1.0;
+    visibility: visible;
+}
 
-		@media screen and (max-width: 736px) {
+/* Медиазапросы для разных экранов */
 
-			#main {
-				padding: 3rem 0 1rem 0 ;
-			}
+/* Средние экраны */
+@media screen and (max-width: 1280px) {
+    .banner.full {
+        min-height: 75vh;
+        height: 75vh !important;
+    }
 
-		}
+    .banner > article h2 {
+        font-size: 4.5rem;
+    }
+}
+
+/* Планшеты */
+@media screen and (max-width: 980px) {
+    .banner.full {
+        min-height: 60vh;
+        height: 60vh !important;
+    }
+
+    .banner > article h2 {
+        font-size: 3.5rem;
+    }
+
+    .banner > article .inner {
+        width: 90%;
+    }
+}
+
+/* Мобильные */
+@media screen and (max-width: 736px) {
+    .banner.full {
+        min-height: 50vh;
+        height: 50vh !important;
+    }
+
+    .banner > article h2 {
+        font-size: 2.5rem;
+    }
+
+    .banner > article p {
+        font-size: 0.85rem;
+        margin-bottom: 1em;
+    }
+
+    .banner > article a.button {
+        font-size: 0.9rem;
+        padding: 0.6em 1.5em;
+    }
+
+    .banner > article .inner {
+        width: 95%;
+        padding: 0 0.5em;
+    }
+}
+
+/* Альбомная ориентация на мобиле */
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .banner.full {
+        min-height: 60vh;
+        height: 60vh !important;
+    }
+
+    .banner > article h2 {
+        font-size: 2rem;
+    }
+
+    .banner > article p {
+        font-size: 0.8rem;
+    }
+
+    .banner > article a.button {
+        font-size: 0.85rem;
+        padding: 0.5em 1.2em;
+    }
+}
+
+body.is-mobile .banner > article {
+    background-attachment: scroll;
+}
 
 /* Footer */
 
