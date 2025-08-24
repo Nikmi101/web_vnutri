@@ -19,11 +19,11 @@
     
     .banner .inner h2 {
         font-size: 1.2em;
-       margin-top: 5px;
+      
     }
     .banner .inner p {
         font-size: 1.0em;
-       margin-bottom: 5px;
+       
     }
 
    .cta-wrapper {
@@ -69,11 +69,11 @@
     
     .banner .inner h2 {
         font-size: 1.1em;
-        margin-top: 5px;
+       
     }
     .banner .inner p {
         font-size: 0.9em;
-       margin-bottom: 5px;
+      
     }
       .cta-wrapper {
     display: flex;
@@ -121,11 +121,11 @@
     }
       .banner .inner h2 {
         font-size: 1.0em;
-         margin-top: 5px;
+         
     }
     .banner .inner p {
        font-size: 0.8em;
-       margin-bottom: 5px;
+    
     }
     .box .content h2 {
         font-size: 1.0em;
