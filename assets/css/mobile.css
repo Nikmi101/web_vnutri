@@ -18,10 +18,10 @@
   }
     
     .banner .inner h2 {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     .banner .inner p {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
    .cta-wrapper {
@@ -66,10 +66,10 @@
   }
     
     .banner .inner h2 {
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
     .banner .inner p {
-        font-size: 1.0em;
+        font-size: 1.1em;
     }
       .cta-wrapper {
     display: flex;
@@ -116,10 +116,10 @@
         margin-top: -60px;
     }
       .banner .inner h2 {
-        font-size: 0.65em;
+        font-size: 1.0em;
     }
     .banner .inner p {
-        font-size: 0.8em;
+       font-size: 1.0em;
     }
     .box .content h2 {
         font-size: 1.0em;
