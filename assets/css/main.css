@@ -1693,7 +1693,7 @@
 		}
 	h1 {
 		font-size: 1.2rem;
-		color: #d4d4d4;
+		color: #ffffff;
 	}
 	h2 {
 		font-size: 1.75rem;
@@ -1791,7 +1791,11 @@
 		color: #555;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: #ffffff;
+	}
+
+	h2, h3, h4, h5, h6 {
 		color: #555;
 	}
 
