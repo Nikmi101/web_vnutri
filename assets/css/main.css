@@ -4077,7 +4077,9 @@ margin-bottom: 1rem;
 			bottom: 1.5em;
 			left: 0;
 			list-style: none;
-			margin: 0;
+			margin: auto;
+			margin-top: auto;
+			margin-bottom: auto;
 			padding: 0;
 			position: absolute;
 			text-align: center;
@@ -4165,7 +4167,7 @@ margin-bottom: 1rem;
 				}
 
 			.banner > article h2 {
-				font-size: 2rem;
+				font-size: 5rem;
 				margin-bottom: 0;
 				color: #FFF;
 				font-weight: 300;
@@ -4181,7 +4183,6 @@ margin-bottom: 1rem;
 				font-size: 0.8rem;
 				font-weight: 300;
 				margin: 0;
-				padding-bottom: 1.75rem;
 				letter-spacing: .15rem;
 			}
 
@@ -4189,9 +4190,7 @@ margin-bottom: 1rem;
 					content: '';
 					position: absolute;
 					margin: 0;
-					right: 0;
-					bottom: 0;
-					left: 0;
+				
 					width: 70%;
 					height: 1px;
 					background-color: rgba(255, 255, 255, 0.65);
