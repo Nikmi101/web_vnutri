@@ -11,6 +11,32 @@
     .banner .inner h2 {
         font-size: 1.8em;
     }
+
+   .cta-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+   .cta-wrapper .button {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    padding: 0.7rem 1.6rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.cta-wrapper .button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
 }
 
 /* Планшеты и большие телефоны */
@@ -28,6 +54,31 @@
     .banner .inner p {
         font-size: 1.2em;
     }
+      .cta-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+   .cta-wrapper .button {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    padding: 0.7rem 1.6rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.cta-wrapper .button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
 }
 
 /* Мелкие телефоны */
@@ -52,4 +103,29 @@
         padding: 8px 15px;
         font-size: 0.9em;
     }
+      .cta-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+   .cta-wrapper .button {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    padding: 0.7rem 1.6rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.cta-wrapper .button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
 }
