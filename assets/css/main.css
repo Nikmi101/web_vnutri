@@ -1864,12 +1864,12 @@ margin: 0;
 /* Контент карточки */
 .box .content {
 
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 15px;
-    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
     text-align: center;
-    color: #d1d1d6;
+    color: #f2f2f2;
 
 }
 .box header {
@@ -1884,7 +1884,7 @@ margin: 0;
 
 .box header h2 {
     font-size: 1.2rem;
-    color: #b3b2b2;
+    color: #d1d1d1;
     margin-bottom: 2.0rem;
 }
 
