@@ -4074,7 +4074,7 @@ margin-bottom: 1rem;
 		}
 
 		.banner .indicators {
-			bottom: 1.5em;
+			bottom: 0.4em;
 			left: 0;
 			list-style: none;
 			margin: 0;
@@ -4088,12 +4088,12 @@ margin-bottom: 1rem;
 			.banner .indicators li {
 				cursor: pointer;
 				display: inline-block;
-				height: 2em;
+				height: 0.5em;
 				overflow: hidden;
 				padding: 0;
 				position: relative;
 				text-indent: 2em;
-				width: 2em;
+				width: 0.5em;;
 			}
 
 				.banner .indicators li:before {
