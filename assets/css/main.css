@@ -1792,7 +1792,7 @@
 	}
 
 	h1 {
-		color: #ffffff;
+		color: #dddcdc;
 	}
 
 	h2, h3, h4, h5, h6 {
@@ -2586,7 +2586,7 @@ margin-bottom: 1rem;
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #ffffff;
+				color: #dddcdc;
 			}
 
 			.wrapper.style1 blockquote {
@@ -3237,7 +3237,7 @@ margin-bottom: 1rem;
 			}
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #ffffff;
+				color: #dddcdc;
 			}
 
 			.wrapper.style3 blockquote {
@@ -4133,10 +4133,13 @@ margin-bottom: 1rem;
 		.banner strong, .banner b {
 			color: #ffffff;
 		}
-
-		.banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
+		.banner h1 {
+			color: #dddcdc;
+		}
+		.banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
 			color: #ffffff;
 		}
+
 
 		.banner blockquote {
 			border-left-color: rgba(255, 255, 255, 0.25);
