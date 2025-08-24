@@ -4165,7 +4165,7 @@ margin-bottom: 1rem;
 				}
 
 			.banner > article h2 {
-				font-size: 7rem;
+				font-size: 2rem;
 				margin-bottom: 0;
 				color: #FFF;
 				font-weight: 300;
@@ -4178,17 +4178,17 @@ margin-bottom: 1rem;
 			.banner > article p {
 				color: rgba(255, 255, 255, 0.65);
 				text-transform: uppercase;
-				font-size: 1rem;
+				font-size: 0.8rem;
 				font-weight: 300;
 				margin: 0;
 				padding-bottom: 1.75rem;
-				letter-spacing: .25rem;
+				letter-spacing: .15rem;
 			}
 
 				.banner > article p:after {
 					content: '';
 					position: absolute;
-					margin: auto;
+					margin: 0;
 					right: 0;
 					bottom: 0;
 					left: 0;
@@ -4231,8 +4231,8 @@ margin-bottom: 1rem;
 
 			.banner.full {
 				padding: 0;
-				min-height: 75vh;
-				height: 75vh !important;
+				min-height: 80vh;
+				height: 80vh !important;
 			}
 
 		}
@@ -4241,8 +4241,8 @@ margin-bottom: 1rem;
 
 			.banner.full {
 				padding: 0;
-				min-height: 50vh;
-				height: 50vh !important;
+				min-height: 80vh;
+				height: 80vh !important;
 			}
 
 			.banner > article {
