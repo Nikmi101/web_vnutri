@@ -1,110 +1,146 @@
 <!DOCTYPE HTML>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8" />
-    <title>Курил-бросил — подробнее</title>
-    <link rel="stylesheet" href="assets/css/main.css" />
+  <meta charset="utf-8" />
+  <title>Курил-бросил — приложение для отказа от курения | Vnutri Apps</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Курил-бросил — приложение, которое помогает бросить курить. Отслеживание прогресса, мотивация и поддержка каждый день." />
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/mobile.css" />
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+
+  <style>
+    /* Шапка с иконкой и кнопкой */
+    .app-header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin: 40px 0;
+      flex-wrap: wrap;
+    }
+    .app-header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 20px;
+    }
+    .app-header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .app-header .download-btn {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 24px;
+      background: #0085ff;
+      color: #fff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .app-header .download-btn img {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    /* Галерея скриншотов */
+    .screenshots {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      padding: 15px 0;
+      scroll-snap-type: x mandatory;
+    }
+    .screenshots img {
+      height: 320px;
+      border-radius: 15px;
+      flex-shrink: 0;
+      scroll-snap-align: start;
+    }
+  </style>
 </head>
-<body class="subpage">
+<body>
 
-    <!-- Header -->
-    <header id="header">
-        <div class="logo"><a href="index.html">Vnutri Apps</a></div>
-        <a href="#menu">Меню</a>
-    </header>
+<!-- Header -->
+<header id="header">
+  <div class="logo"><a href="index.html">Vnutri Apps</a></div>
+  <a href="#menu">Меню</a>
+</header>
 
-    <!-- Nav -->
-    <nav id="menu">
-        <ul class="links">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="apps.html">Приложения</a></li>
-            <li><a href="about.html">О проекте</a></li>
-        </ul>
-    </nav>
+<!-- Nav -->
+<nav id="menu">
+  <ul class="links">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="kurilbrosil.html">Курил-бросил</a></li>
+    <li><a href="nettrevoge.html">Нет тревоге</a></li>
+    <li><a href="odinochestvo.html">Одиночество</a></li>
+    <li><a href="tvorchestvo.html">Творчество</a></li>
+  </ul>
+</nav>
 
-    <!-- Заголовок -->
-    <section class="wrapper style3">
-        <div class="inner">
-            <header class="align-center">
-                <h2>Курил-бросил</h2>
-                <p>Приложение, которое помогает бросить курить</p>
-            </header>
-        </div>
-    </section>
+<!-- Контент -->
+<div class="container">
 
-    <!-- Основной блок -->
-    <div id="main" class="container">
-
-        <!-- Иконка и кнопка -->
-        <section class="box align-center">
-            <span class="image"><img src="images/icons/kurilbrosil.png" alt="Иконка Курил-бросил" style="max-width:120px;" /></span>
-            <ul class="actions special">
-                <li><a href="https://www.rustore.ru/catalog/app/com.nikinorm.gus" target="_blank" class="button special icon fa-download">Скачать на RuStore</a></li>
-            </ul>
-        </section>
-
-
-    <div class="header">
-          <img src="images/icons/ic_kurilbrosil.png" alt="Иконка Курил-бросил" style="max-width:120px class="app-icon">
-              <div class="app-info">
-                    <h1>Курил бросил</h1>
-                    <a href="https://www.rustore.ru/" class="download-btn">Скачать на RuStore</a>
-              </div>
+  <!-- Шапка приложения -->
+  <div class="app-header">
+    <img src="images/icons/kurilbrosil.png" alt="Курил-бросил иконка">
+    <div>
+      <h1>Курил-бросил</h1>
+      <a href="https://www.rustore.ru/catalog/app/com.nikinorm.gus" target="_blank" class="download-btn">
+        <img src="images/rustore-icon.png" alt=""> Скачать на RuStore
+      </a>
     </div>
-        
-        <!-- Галерея -->
-        <section>
-            <h3 class="align-center">Скриншоты</h3>
-            <div class="box alt">
-                <div class="row 50% uniform">
-                    <div class="4u"><span class="image fit"><img src="images/screenshots-kurilbrosil/1.jpg" alt="Скриншот 1" /></span></div>
-                    <div class="4u"><span class="image fit"><img src="images/screenshots-kurilbrosil/2.jpg" alt="Скриншот 2" /></span></div>
-                    <div class="4u$"><span class="image fit"><img src="images/screenshots-kurilbrosil/3.jpg" alt="Скриншот 3" /></span></div>
-                      <div class="4u$"><span class="image fit"><img src="images/screenshots-kurilbrosil/4.jpg" alt="Скриншот 4" /></span></div>
-                      <div class="4u$"><span class="image fit"><img src="images/screenshots-kurilbrosil/5.jpg" alt="Скриншот 5" /></span></div>
-                      <div class="4u$"><span class="image fit"><img src="images/screenshots-kurilbrosil/6.jpg" alt="Скриншот 6" /></span></div>
-                      <div class="4u$"><span class="image fit"><img src="images/screenshots-kurilbrosil/7.jpg" alt="Скриншот 7" /></span></div>
-                      <div class="4u$"><span class="image fit"><img src="images/screenshots-kurilbrosil/8.jpg" alt="Скриншот 8" /></span></div>
-                      <div class="4u$"><span class="image fit"><img src="images/screenshots-kurilbrosil/9.jpg" alt="Скриншот 9" /></span></div>
-                      <div class="4u$"><span class="image fit"><img src="images/screenshots-kurilbrosil/10.jpg" alt="Скриншот 10" /></span></div>
-                    <!-- сюда остальные скриншоты -->
-                </div>
-            </div>
-        </section>
+  </div>
 
-        <!-- Описание -->
-        <section class="box">
-            <header>
-                <h3>Описание</h3>
-            </header>
-            <p>
-                «Курил-бросил» — больше, чем счётчик сигарет. Полный набор инструментов помогает бросить курить, отслеживать прогресс, укреплять здоровье и жить свободнее.  
-                Ежедневная поддержка, мотивация и практики делают путь к свободе лёгким и эффективным.  
-                Это приложение создано, чтобы помочь каждому шаг за шагом избавиться от зависимости и почувствовать лёгкость жизни без сигарет.
-            </p>
-        </section>
-
-        <!-- Кнопки -->
-        <ul class="actions special">
-            <li><a href="index.html" class="button alt">На главную</a></li>
-            <li><a href="https://www.rustore.ru/catalog/app/com.nikinorm.gus" target="_blank" class="button special">Скачать</a></li>
-        </ul>
-
+  <!-- Галерея -->
+  <section>
+    <h2>Скриншоты</h2>
+    <div class="screenshots">
+      <img src="images/screenshots-kurilbrosil/1.jpg" alt="Скриншот 1">
+      <img src="images/screenshots-kurilbrosil/2.jpg" alt="Скриншот 2">
+      <img src="images/screenshots-kurilbrosil/3.jpg" alt="Скриншот 3">
+      <img src="images/screenshots-kurilbrosil/4.jpg" alt="Скриншот 4">
+      <img src="images/screenshots-kurilbrosil/5.jpg" alt="Скриншот 5">
+      <img src="images/screenshots-kurilbrosil/6.jpg" alt="Скриншот 6">
+      <img src="images/screenshots-kurilbrosil/7.jpg" alt="Скриншот 7">
+      <img src="images/screenshots-kurilbrosil/8.jpg" alt="Скриншот 8">
+      <img src="images/screenshots-kurilbrosil/9.jpg" alt="Скриншот 9">
+      <img src="images/screenshots-kurilbrosil/10.jpg" alt="Скриншот 10">
     </div>
+  </section>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="container">
-            <p>&copy; Vnutri Apps, Россия. Все права защищены.</p>
-        </div>
-    </footer>
+  <!-- Описание -->
+  <section class="box">
+    <h2>Описание</h2>
+    <p>
+      «Курил-бросил» — больше, чем счётчик сигарет.  
+      Это приложение помогает отказаться от курения, отслеживать прогресс, укреплять здоровье и находить поддержку каждый день.  
+      В нём есть статистика, мотивационные материалы, практики и напоминания, чтобы путь к свободе был легче и увереннее.
+    </p>
+  </section>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+  <!-- Кнопки -->
+  <footer class="align-center">
+    <a href="index.html" class="button alt">Назад</a>
+    <a href="https://www.rustore.ru/catalog/app/com.nikinorm.gus" target="_blank" class="button special">Скачать</a>
+  </footer>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="container">
+    <p>&copy; Vnutri Apps. Все права защищены.</p>
+  </div>
+</footer>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
