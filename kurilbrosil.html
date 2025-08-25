@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Курил-бросил — подробнее</title>
+    <link rel="stylesheet" href="assets/css/main.css"> <!-- подключаем твой общий CSS -->
+    <style>
+        /* Галерея скриншотов */
+        .screenshots {
+            overflow-x: auto;
+            display: flex;
+            gap: 1rem;
+            padding: 1rem;
+            scroll-snap-type: x mandatory;
+        }
+        .screenshots img {
+            flex: 0 0 auto;
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            scroll-snap-align: start;
+        }
 
+        /* Текст секции */
+        .app-description {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        /* Кнопки внизу */
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 3rem 0;
+        }
+        .buttons a {
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .back-button {
+            background: transparent;
+            border: 2px solid #333;
+            color: #333;
+        }
+        .back-button:hover {
+            border-color: #fff;
+            color: #fff;
+        }
+        .rustore-button {
+            background: #ff3b00;
+            color: white;
+        }
+        .rustore-button:hover {
+            background: #e03500;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Галерея скриншотов -->
+    <section>
+        <h2 class="align-center">Скриншоты приложения</h2>
+        <div class="screenshots">
+            <img src="images/screenshots/1.jpg" alt="Скриншот 1">
+            <img src="images/screenshots/2.jpg" alt="Скриншот 2">
+            <img src="images/screenshots/3.jpg" alt="Скриншот 3">
+            <img src="images/screenshots/4.jpg" alt="Скриншот 4">
+            <img src="images/screenshots/5.jpg" alt="Скриншот 5">
+            <img src="images/screenshots/6.jpg" alt="Скриншот 6">
+            <img src="images/screenshots/7.jpg" alt="Скриншот 7">
+            <img src="images/screenshots/8.jpg" alt="Скриншот 8">
+        </div>
+    </section>
+
+    <!-- Описание -->
+    <section class="app-description">
+        <h2>Курил-бросил: бросить курить</h2>
+        <p>
+            «Курил-бросил» — больше, чем счётчик сигарет. Полный набор инструментов помогает бросить курить, отслеживать прогресс, укреплять здоровье и жить свободнее.  
+            Ежедневная поддержка, мотивация и практики делают путь к свободе лёгким и эффективным.  
+            Это приложение создано, чтобы помочь каждому шаг за шагом избавиться от зависимости и почувствовать лёгкость жизни без сигарет.
+        </p>
+    </section>
+
+    <!-- Кнопки -->
+    <div class="buttons">
+        <a href="index.html" class="back-button">На главную</a>
+        <a href="https://www.rustore.ru/catalog/app/com.nikinorm.gus" target="_blank" class="rustore-button">Скачать на RuStore</a>
+    </div>
+
+</body>
+</html>
