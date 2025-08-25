@@ -4487,6 +4487,9 @@ footer.align-center {
 }
 
 .details-button {
+	    background-color: transparent;       /* прозрачный фон */
+    color: #c8c8c8;                      /* графитовый цвет текста */
+    border: 2px solid #c8c8c8;           /* графитовая рамка */
 	display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -4534,12 +4537,6 @@ margin-bottom: 1rem;
 }
 
 
-.details-button {
-    background-color: transparent;       /* прозрачный фон */
-    color: #171717;                      /* графитовый цвет текста */
-    border: 2px solid #171717;           /* графитовая рамка */
- 
-}
 
 .details-button:hover,
 .details-button:active {
