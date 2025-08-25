@@ -4488,8 +4488,8 @@ footer.align-center {
 
 .details-button {
 	    background-color: transparent;       /* прозрачный фон */
-    color: #c8c8c8;                      /* графитовый цвет текста */
-    border: 2px solid #c8c8c8;           /* графитовая рамка */
+    color: #b9b9b9;                      /* графитовый цвет текста */
+    border: 2px solid #b9b9b9;           /* графитовая рамка */
 	display: inline-flex;
   align-items: center;
   justify-content: center;
