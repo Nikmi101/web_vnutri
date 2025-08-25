@@ -4512,14 +4512,19 @@ footer.align-center {
 margin-bottom: 1rem;
 }
 
+
 .details-button {
-    background-color: #f0f0f0;
-    color: #333;
-    border: 1px solid #ccc;
+    background-color: transparent;       /* прозрачный фон */
+    color: #333333;                      /* графитовый цвет текста */
+    border: 1px solid #333333;           /* графитовая рамка */
+ 
 }
 
-.details-button:hover {
-    background-color: #e0e0e0;
+.details-button:hover,
+.details-button:active {
+    color: #ffffff;                      /* текст становится белым */
+    border-color: #ffffff;               /* рамка становится белой */
+    background-color: transparent;       /* фон остаётся прозрачным */
 }
 
 
