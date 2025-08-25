@@ -4087,6 +4087,25 @@ margin-bottom: 1rem;
 				color: #000;
 			}
 
+#menu ul.submenu {
+    list-style: none;
+    padding-left: 1.5rem; /* сдвиг вправо */
+    margin: 0;
+}
+
+#menu ul.submenu li a {
+    border-top: none; /* убираем верхнюю границу, чтобы выглядело аккуратно */
+    color: rgba(255, 255, 255, 0.4); /* чуть светлее, чем основные пункты */
+    font-size: 0.9em; /* можно сделать чуть меньше размер */
+    line-height: 2.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+#menu ul.submenu li a:hover {
+    color: #fff;
+}
+
 			@media screen and (max-width: 736px) {
 
 				#menu .close {
