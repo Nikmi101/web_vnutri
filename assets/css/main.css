@@ -4486,32 +4486,7 @@ footer.align-center {
     flex-wrap: wrap; /* если экран узкий — кнопки будут в столбик */
 }
 
-.details-button {
-	    background-color: transparent;       /* прозрачный фон */
-    color: #b9b9b9;                      /* графитовый цвет текста */
-    border: 2px solid #b9b9b9;           /* графитовая рамка */
-	display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
- 
-    padding: 12px 30px;
-  
-    font-weight: bold;
-    text-decoration: none;
-    
-    transition: 0.3s;
-
-
-  font-size: 17px;
-  
- 
-  border-radius: 15px;
-  padding: 10px 16px;
-  gap: 8px; /* расстояние между иконкой и текстом */
-  transition: background 0.3s;
-	margin-bottom: 1rem;
-}
+.details-button,
 .rustore-button {
   display: inline-flex;
   align-items: center;
@@ -4537,8 +4512,11 @@ footer.align-center {
 margin-bottom: 1rem;
 }
 
-
-
+.details-button {
+	    background-color: transparent;       /* прозрачный фон */
+    color: #b9b9b9;                      /* графитовый цвет текста */
+    border: 2px solid #b9b9b9;           /* графитовая рамка */
+}
 .details-button:hover,
 .details-button:active {
     color: #ffffff;                      /* текст становится белым */
