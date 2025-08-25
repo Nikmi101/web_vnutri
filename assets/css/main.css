@@ -4510,6 +4510,7 @@ footer.align-center {
   padding: 10px 16px;
   gap: 8px; /* расстояние между иконкой и текстом */
   transition: background 0.3s;
+	margin-bottom: 1rem;
 }
 .rustore-button {
   display: inline-flex;
