@@ -5,6 +5,6 @@ Disallow: /tmp/
 
 Allow: /
 
-Sitemap: https://курил-бросил.рф/sitemap.xml
-Host: https://курил-бросил.рф
+Sitemap: https://vnutriapps.ru/sitemap.xml
+Host: https://vnutriapps.ru
 
