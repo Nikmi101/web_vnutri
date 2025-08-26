@@ -6,4 +6,5 @@ Disallow: /tmp/
 Allow: /
 
 Sitemap: https://курил-бросил.рф/sitemap.xml
-Host: курил-бросил.рф
+Host: https://курил-бросил.рф
+
