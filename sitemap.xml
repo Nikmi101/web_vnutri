@@ -24,7 +24,19 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+
+   <!-- Приложение Одиночество: Точки опоры -->
+  <url>
+    <loc>https://курил-бросил.рф/kak-borotsya-s-odinochestvom</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+
+  
  
 </urlset>
+
 
 
